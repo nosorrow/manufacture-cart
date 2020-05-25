@@ -1,38 +1,20 @@
 {
     "name": "plamenorama/manufacturecart",
-    "description": "Shopping cart",
+    "description": "Simple shopping cart library",
+    "type": "library",
+    "keywords": ["shopping", "cart"],
+    "homepage": "https://github.com/nosorrow/manufacture-cart",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Plamen Petkov",
-            "email": "plamenorama@gmail.com"
-        }
-    ],
     "require": {
         "php": ">=7.1.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "plamenorama/manufacturecart",
-                "version": "1.0",
-                "source": {
-                    "url": "https://github.com/nosorrow/manufacture-cart.git",
-                    "type": "git",
-                    "reference": "master"
-                },
-                "autoload": {
-                    "psr-4": {
-                        "Cart\\": "manufacture-cart/src",
-                        "Cart\\Support\\": "manufacture-cart/src/Support"
-                    },
-                    "files": [
-                        "manufacture-cart/src/Support/Helpers.php"
-                    ]
-                }
-            }
-        }]
+    "autoload": {
+        "psr-4": {
+            "Cart\\": "src/",
+            "Cart\\Support\\": "src/Support"
+        },
+        "files": [
+            "src/Support/helpers.php"
+        ]
+    }
 }
