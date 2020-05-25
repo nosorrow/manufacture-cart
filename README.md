@@ -1,7 +1,7 @@
 Manufacture Shopping Cart Class
 -----
 
-#### Бърз старт
+#### How to use
 
 ```php
 
@@ -39,7 +39,7 @@ $cart->clear();
 
 ````
 
-#### Методи на класът
+#### Methods
 
 ```php
 Cart::add(array $product): string;
@@ -55,7 +55,7 @@ Cart::getTotalItems();
 Cart::getProductPrice($rowid);
 
 ```
-Примерна структура на масивът който трябва да подадем на количката:
+Example <code>$productArray</code>
 ```php
 $product = [
     'id' => '20',           // *required
@@ -70,7 +70,7 @@ $product = [
     ]
 ];
 ```
-Структура на сесията <code>$_SESSION['cart']</code>
+Cart session <code>$_SESSION['cart']</code>
 
 ```php
 Array
