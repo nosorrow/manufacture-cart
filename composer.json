@@ -1,5 +1,5 @@
 {
-    "name": "plamenorama/manufacturecart",
+    "name": "manufacture/manufacturecart",
     "description": "Simple shopping cart library",
     "type": "library",
     "keywords": ["shopping", "cart"],
