@@ -1,7 +1,9 @@
 <?php
 
 namespace Cart;
-
+/*
+ * Manufacture shopping cart class
+ */
 class Cart implements ShoppingCart
 {
     /**
