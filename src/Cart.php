@@ -1,6 +1,7 @@
 <?php
 
 namespace Cart;
+
 /*
  * Manufacture shopping cart class
  */
