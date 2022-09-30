@@ -17,5 +17,15 @@
         "files": [
             "src/Support/helpers.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cart\\CartProvider"
+            ],
+            "aliases": {
+                "Debugbar": "Cart\\Facade\\Cart"
+            }
+        }
     }
 }
